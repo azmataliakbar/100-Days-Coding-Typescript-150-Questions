@@ -1,5 +1,6 @@
-"use strict";
-/* Question 98: Create a JavaScript snippet that calculates and logs how many days are left until New Year. */
+/*
+! Question 98: Create a JavaScript snippet that calculates and logs how many days are left until New Year.
+ */
 // Calculates how many days are left until New Year's Day
 function daysUntilNewYear() {
     const today = new Date();
@@ -9,4 +10,5 @@ function daysUntilNewYear() {
     return days;
 }
 console.log("\n", daysUntilNewYear() + " days until New Year.");
-// Tells us how many days there are until the next New Year's Day.
+export {};
+//? Tells us how many days there are until the next New Year's Day.

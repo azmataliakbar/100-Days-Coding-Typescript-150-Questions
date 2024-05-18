@@ -4,5 +4,6 @@
 /*
 todo=> Explain & TIP: Arrays are perfect for keeping a collection of similar items. Choose a theme you like and list several examples.
  */
-var countries = ["Japan", "Canada", "New Zealand", "Iceland", "Switzerland"];
+let countries = ["Japan", "Canada", "New Zealand", "Iceland", "Switzerland"];
 console.log("\nCountries I'd like to visit:", countries);
+export {};

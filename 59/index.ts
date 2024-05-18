@@ -1,8 +1,12 @@
-/* Question 59: Add a Special Number: Make a program that creates custom adders. These adders can add a specific number to any other number you give them later. */
+/*
+! Question 59: Add a Special Number: Make a program that creates custom adders. These adders can add a specific number to any other number you give them later.
+ */
 
 // This program makes a function that adds a specific number
+
 // (number)  arg0: is added so it becomes (arg0: number) as below:-
 function makeAdder(valueToAdd: number): (arg0: number) => number {
+  
   // This is the magic box. It takes a number and adds your special number to it
   return function(number: number): number {
       return number + valueToAdd;
@@ -12,4 +16,4 @@ function makeAdder(valueToAdd: number): (arg0: number) => number {
 // Making a magic box that adds 5
 let addFive = makeAdder(5);
 console.log("\n", addFive(15)); // If we put 10 in the box, it gives us 15
-// We made a function (magic box) that adds 5 to any number.
+//? We made a function (magic box) that adds 5 to any number.

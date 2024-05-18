@@ -5,7 +5,7 @@
 todo=> Explain & TIP: This exercise introduces you to handling multiple specific conditions in an if-else chain.
  */
 //Green alien version:
-var alien_color = "green";
+let alien_color = "green";
 if (alien_color == "green") {
     console.log("\nYou earned 5 points.");
 }
@@ -37,3 +37,4 @@ else if (alien_color == "yellow") {
 else if (alien_color == "red") {
     console.log("\nYou earned 15 points.");
 }
+export {};

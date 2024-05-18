@@ -1,4 +1,4 @@
-// In file: Person.ts
+//todo=>  This file is: Person.ts
 export class Person {
   name: string;
   constructor(name: string) {
@@ -8,4 +8,4 @@ export class Person {
     console.log(`\nHello, my name is ${this.name}`);
   }
 }
-// Exports the Person class
+//! Exports the Person class to index.ts

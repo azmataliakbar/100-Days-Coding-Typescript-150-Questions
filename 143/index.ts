@@ -8,7 +8,9 @@ todo=> Explain & TIP: The .then() method is called when a Promise is successfull
 
 // Creates a Promise that either resolves or rejects based on a condition
 const conditionalPromise = new Promise<string>((resolve, reject) => {
+
   const success = Math.random() > 0.5; // Randomly choose success or failure
+  
   if (success) {
     resolve("Success!");
   } else {
@@ -19,4 +21,4 @@ const conditionalPromise = new Promise<string>((resolve, reject) => {
 conditionalPromise
   .then((result) => console.log("\n", result)) // Handles a successful resolution
   .catch((error) => console.log("\n", error.message)); // Handles a rejection
-// This code will randomly log either "Success!" or "Failure" based on the outcome of the promise.
+//? This code will randomly log either "Success!" or "Failure" based on the outcome of the promise.

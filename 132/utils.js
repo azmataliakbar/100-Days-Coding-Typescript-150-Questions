@@ -1,12 +1,12 @@
 "use strict";
+//! Named export example in file: utils.ts
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.utilTwo = exports.utilOne = void 0;
-// Named export example in file: utils.ts
-const utilOne = () => {
+var utilOne = function () {
     /*...*/
 };
 exports.utilOne = utilOne;
-const utilTwo = () => {
+var utilTwo = function () {
     /*...*/
 };
 exports.utilTwo = utilTwo;

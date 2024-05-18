@@ -8,9 +8,9 @@ todo=> Explain & TIP: Breakpoints are a powerful feature in browser developer to
 
 // Sample code snippet for setting a breakpoint
 console.log("\nBefore breakpoint");
-//! Set a breakpoint on the following line using your browser's developer tools
-console.log(
-  "\nThis line has a breakpoint set on it in the browser's developer tools"
-);
+
+// Set a breakpoint on the following line using your browser's developer tools
+console.log("\nThis line has a breakpoint set on it in the browser's developer tools");
+
 console.log("\nAfter breakpoint");
-// To use breakpoints, open this code in your browser, open the developer tools, navigate to the Source tab, find this script, and click on the line number where you want to pause execution. When you reload or run your page, execution will pause at the breakpoint.
+//? To use breakpoints, open this code in your browser, open the developer tools, navigate to the Source tab, find this script, and click on the line number where you want to pause execution. When you reload or run your page, execution will pause at the breakpoint.

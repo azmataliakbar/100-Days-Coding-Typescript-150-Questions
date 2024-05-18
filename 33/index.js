@@ -4,9 +4,9 @@
 /*
 todo=> Explain & TIP: Use a loop and an if-else chain to append the correct ordinal suffix to numbers. This introduces you to combining loops with conditional logic for formatting.
 */
-var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-numbers.forEach(function (number) {
-    var suffix = "th";
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+numbers.forEach(number => {
+    let suffix = "th";
     if (number === 1) {
         suffix = "st";
     }
@@ -16,5 +16,6 @@ numbers.forEach(function (number) {
     else if (number === 3) {
         suffix = "rd";
     }
-    console.log("\n".concat(number).concat(suffix));
+    console.log(`\n${number}${suffix}`);
 });
+export {};

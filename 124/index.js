@@ -1,5 +1,6 @@
-"use strict";
-//Question 124: Create a function inside an object that returns the object's own name property using the this keyword.
+/*
+! Question 124: Create a function inside an object that returns the object's own name property using the this keyword.
+ */
 // Defines an object with a name property and a method to return its name
 const person = {
     name: "Alice",
@@ -8,4 +9,5 @@ const person = {
     },
 };
 console.log("\n", person.getName()); // Outputs: Alice
-// This method correctly identifies and returns the object's 'name' property using 'this'.
+export {};
+//? This method correctly identifies and returns the object's 'name' property using 'this'.

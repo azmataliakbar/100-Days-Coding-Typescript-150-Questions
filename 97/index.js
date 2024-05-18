@@ -1,5 +1,6 @@
-"use strict";
-/* Question 97: Write a function that returns the current date in the format "DD-MM-YYYY". */
+/*
+! Question 97: Write a function that returns the current date in the format "DD-MM-YYYY".
+ */
 // This function formats the current date as DD-MM-YYYY
 function getCurrentDateFormatted() {
     const now = new Date();
@@ -9,4 +10,5 @@ function getCurrentDateFormatted() {
     return `${day}-${month}-${year}`;
 }
 console.log("\n", getCurrentDateFormatted()); // Outputs the current date in DD-MM-YYYY format
-// Shows today's date, neatly formatted.
+export {};
+//? Shows today's date, neatly formatted.

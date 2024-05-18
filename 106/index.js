@@ -1,5 +1,6 @@
-"use strict";
-/* **Question 106:** Determine if a given year is a leap year using comparison operators. */
+/*
+! Question 106: Determine if a given year is a leap year using comparison operators.
+ */
 // This function checks if a year is a leap year
 function isLeapYear(year) {
     // Checks the conditions for a leap year
@@ -7,4 +8,5 @@ function isLeapYear(year) {
 }
 console.log("\n", isLeapYear(2023)); // Outputs: true
 console.log("\n", isLeapYear(2024)); // Outputs: false
-// By using comparison operators, we can easily determine if a year is a leap year or not.
+export {};
+//? By using comparison operators, we can easily determine if a year is a leap year or not.

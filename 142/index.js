@@ -1,4 +1,3 @@
-"use strict";
 /*
 !Question 142: Create a Promise that resolves with "Hello, World!" after 2 seconds.
  */
@@ -6,10 +5,10 @@
 todo=> Explain & TIP: Promises in JavaScript are used for asynchronous computations and can be in one of these states: pending, fulfilled, or rejected. A Promise that resolves after a delay demonstrates how to handle operations that take some time to complete, like fetching data or timing events.
  */
 // Creates a Promise that resolves with "Hello, World!" after 2 seconds
-const helloPromise = new Promise((resolve) => {
-    setTimeout(() => {
+var helloPromise = new Promise(function (resolve) {
+    setTimeout(function () {
         resolve("Hello, World!");
-    }, 2000);
+    }, 3000);
 });
-helloPromise.then((message) => console.log("\n", message));
+helloPromise.then(function (message) { return console.log("\n", message); });
 // After 2 seconds, "Hello, World!" will be logged to the console.

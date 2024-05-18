@@ -1,8 +1,11 @@
-/* Question 70: Understanding let in Loops: Write a function that uses a loop with the let keyword to print numbers from 1 to 5. Explain how the let keyword affects the visibility of the loop variable. */
+/*
+! Question 70: Understanding let in Loops: Write a function that uses a loop with the let keyword to print numbers from 1 to 5. Explain how the let keyword affects the visibility of the loop variable.
+ */
 
 // This function prints numbers from 1 to 5 using a loop
 function printNumbersWithLet() {
   for (let i = 1; i <= 5; i++) {
+    
       // Uses `let` for loop variable `i`
       console.log("\n", i); // Logs numbers 1 through 5
   }
@@ -10,4 +13,4 @@ function printNumbersWithLet() {
 }
 
 printNumbersWithLet();
-// This shows that `let` limits `i` to the loop, preventing errors from using `i` where it's not intended.
+//? This shows that `let` limits `i` to the loop, preventing errors from using `i` where it's not intended.

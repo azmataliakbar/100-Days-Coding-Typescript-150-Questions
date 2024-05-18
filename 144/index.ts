@@ -16,4 +16,4 @@ const promise3 = new Promise<string>((resolve) => {
 Promise.all([promise1, promise2, promise3]).then((values) => {
   console.log("\n", values); // Outputs: [3, 42, "foo"]
 });
-// This demonstrates how Promise.all waits for all promises to resolve and then logs the array of their results.
+//? This demonstrates how Promise.all waits for all promises to resolve and then logs the array of their results.

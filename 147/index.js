@@ -1,4 +1,3 @@
-"use strict";
 /*
 !Question 147: Explain how to handle errors in a callback pattern.
 */
@@ -8,8 +7,8 @@ todo=> Explain & TIP: Handling errors in a callback pattern often involves passi
 // Function that uses a callback pattern, including error handling
 function fetchData(callback) {
     // Simulating an error condition
-    const error = new Error("Failed to fetch data");
-    const data = "Some data";
+    var error = new Error("Failed to fetch data");
+    var data = "Some data";
     // Simulate fetching data with a chance of error
     if (Math.random() > 0.5) {
         callback(null, data); // No error, data is fetched successfully
@@ -19,7 +18,7 @@ function fetchData(callback) {
     }
 }
 // Using the fetchData function with error handling in the callback
-fetchData((error, data) => {
+fetchData(function (error, data) {
     if (error) {
         console.error("\n", error.message); // Handles the error
     }
@@ -27,4 +26,4 @@ fetchData((error, data) => {
         console.log("\n", data); // Processes the data
     }
 });
-// Demonstrates a callback pattern where errors are handled gracefully.
+//? Demonstrates a callback pattern where errors are handled gracefully.

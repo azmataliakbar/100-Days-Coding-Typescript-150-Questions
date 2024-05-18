@@ -10,7 +10,7 @@ todo=> Explain & TIP: Promises in JavaScript are used for asynchronous computati
 const helloPromise = new Promise<string>((resolve) => {
   setTimeout(() => {
     resolve("Hello, World!");
-  }, 2000);
+  }, 3000);
 });
 
 helloPromise.then((message) => console.log("\n", message));

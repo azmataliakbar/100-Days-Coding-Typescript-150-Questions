@@ -1,4 +1,6 @@
-/* Question 53: Pulling Apart a Nested Object: Imagine you have a list inside another list that shows what a computer programmer knows, like coding languages, tools, and software frameworks. Find a way to get three specific skills from this list and show them. */
+/*
+! Question 53: Pulling Apart a Nested Object: Imagine you have a list inside another list that shows what a computer programmer knows, like coding languages, tools, and software frameworks. Find a way to get three specific skills from this list and show them.
+ */
 
 interface DeveloperSkills {
   languages: string[];
@@ -8,9 +10,9 @@ interface DeveloperSkills {
 
 // A list showing a programmer's skills in detail
 let developerSkills: DeveloperSkills = {
-  languages: ["JavaScript", "TypeScript", "Python"],
-  frameworks: ["React", "Angular", "Vue"],
-  tools: ["Git", "Webpack", "Docker"]
+  languages: ["JavaScript", " TypeScript", " Python"],
+  frameworks: ["React", " Angular", " Vue"],
+  tools: ["Git", " Webpack", " Docker"]
 };
 
 // Getting specific skills from the list

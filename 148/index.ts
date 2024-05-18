@@ -8,6 +8,6 @@ todo=> Explain & TIP: setTimeout() is a built-in JavaScript function that allows
 
 // Uses setTimeout to log a message after a 2-second delay
 setTimeout(() => {
-  console.log("\n", "This message is shown after a 2-second delay.");
-}, 2000);
-// This showcases how to use setTimeout to delay actions in your code.
+  console.log("\n", "This message is shown after a 3-second delay.");
+}, 3000);
+//? This showcases how to use setTimeout to delay actions in your code.

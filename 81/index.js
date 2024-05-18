@@ -1,5 +1,6 @@
-"use strict";
-/* Question 81: Iterating Over Object Properties: Write a function that takes an object as an argument and logs all of its properties and values. */
+/*
+! Question 81: Iterating Over Object Properties: Write a function that takes an object as an argument and logs all of its properties and values.
+ */
 // This function shows every detail about an object , in parameter we must write obj: { [key: string]: any } , the parameter obj: object shows error
 function logObjectProperties(obj) {
     for (let property in obj) {
@@ -10,4 +11,5 @@ function logObjectProperties(obj) {
 }
 // Using the function with a car object
 logObjectProperties({ make: "Toyota", model: "Corolla", year: 2021, color: "blue" });
-// It tells us each piece of information stored about the car.
+export {};
+//? It tells us each piece of information stored about the car.

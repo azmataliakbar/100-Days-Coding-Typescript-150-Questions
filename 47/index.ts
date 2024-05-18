@@ -1,4 +1,6 @@
-/* Question 47: Advanced Array Destructuring: Given an array of objects representing different laptops, each with properties make, model, and year, use array destructuring to assign the first and second laptops to variables. Then, log these variables. */
+/*
+! Question 47: Advanced Array Destructuring: Given an array of objects representing different laptops, each with properties make, model, and year, use array destructuring to assign the first and second laptops to variables. Then, log these variables.
+  */
 
 interface Laptop {
   make: string;
@@ -11,6 +13,7 @@ let laptops: Laptop[] = [
   { make: "Apple", model: "MacBook Pro", year: 2020 },
   { make: "HP", model: "Spectre x360", year: 2021 }
 ];
-let [laptop1, laptop2] = laptops;
+let [laptop1, laptop2, laptop3] = laptops;
 console.log("\n", laptop1);
 console.log("\n", laptop2);
+console.log("\n", laptop3);

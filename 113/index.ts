@@ -1,4 +1,6 @@
-/* Question 113: Write a function that checks if a Map contains a key for "Canada" and logs the capital if it exists. */
+/*
+! Question 113: Write a function that checks if a Map contains a key for "Canada" and logs the capital if it exists.
+ */
 
 // Creates a new Map to store countries and their capitals
 const countries = new Map<string, string>();
@@ -21,4 +23,4 @@ function logCapitalOfCanada(countries: Map<string, string>): void {
 
 // Assuming countries Map from Question
 logCapitalOfCanada(countries);
-// Checks if Canada is in our Map and logs the capital if it exists.
+//? Checks if Canada is in our Map and logs the capital if it exists.

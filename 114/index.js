@@ -1,5 +1,6 @@
-"use strict";
-/* Question 114: Iterate over a Map of student IDs and names, and log each pair to the console. */
+/*
+! Question 114: Iterate over a Map of student IDs and names, and log each pair to the console.
+ */
 // Creates a Map to store student IDs (keys) and names (values)
 const students = new Map();
 students.set(1, "Alice");
@@ -9,4 +10,5 @@ students.set(3, "Charlie");
 students.forEach((name, id) => {
     console.log(`\nStudent ID: ${id}, Name: ${name}`);
 });
-// This loop goes through each student and logs their ID and name.
+export {};
+//? This loop goes through each student and logs their ID and name.

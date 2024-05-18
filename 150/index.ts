@@ -17,4 +17,4 @@ setTimeout(() => {
 console.log("\n", "Asynchronous operation completed"); //? this code will print in normal timing
 }, 5000);
 console.log("\n", "After asynchronous operation setup"); //! this code will print with delay, depend on timer setting
-// Demonstrates how the rest of the code continues to execute without waiting for the asynchronous operation.
+//? Demonstrates how the rest of the code continues to execute without waiting for the asynchronous operation.

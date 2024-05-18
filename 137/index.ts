@@ -10,7 +10,9 @@ todo=> Explain & TIP: The try-catch statement marks a block of statements to try
 try {
   //! Intentionally cause an error
   throw new Error("\nSomething went wrong.");
+
 } catch (error) {
+  
   console.log(error.message); // Logs the error message
 }
 //? This code tries to execute a block that throws an error, and the catch block handles the error gracefully.

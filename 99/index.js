@@ -1,5 +1,6 @@
-"use strict";
-/* Question 99: Generate a date object representing your next birthday and log it to the console. */
+/*
+! Question 99: Generate a date object representing your next birthday and log it to the console.
+ */
 // Generates a Date object for the next occurrence of a specific birthday
 function getNextBirthday(month, day) {
     const today = new Date();
@@ -12,6 +13,7 @@ function getNextBirthday(month, day) {
     return birthday;
 }
 // Replace with your birth month and day
-const nextBirthday = getNextBirthday(1, 1); // Example: December 25th
+const nextBirthday = getNextBirthday(1, 1); // Example: January 1st
 console.log("\n", "Next birthday on:", nextBirthday.toLocaleDateString());
-// Shows the date of the next birthday.
+export {};
+//? Shows the date of the next birthday.

@@ -15,6 +15,10 @@ const person = {
 const jsonString = JSON.stringify(person, null, 2); // The '2' specifies the number of spaces to use as white space
 
 console.log(jsonString);
+
+
+
+
 /* Outputs:
 {
   "name": "Alice",

@@ -5,7 +5,7 @@
 todo=> Explain & TIP: Use an if statement to check the alien's color. This introduces you to simple conditionals.
  */
 // Version that passes:
-var alien_color = "green";
+let alien_color = "green";
 if (alien_color == "green") {
     console.log("\nYou just earned 5 points!");
 }
@@ -14,3 +14,4 @@ alien_color = "red";
 if (alien_color == "green") {
     // No output because the condition is false
 }
+export {};

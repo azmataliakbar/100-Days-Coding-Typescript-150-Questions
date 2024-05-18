@@ -1,5 +1,6 @@
-"use strict";
-/* Question 115: Use a switch statement to log the days of the week based on a number (1-7). */
+/*
+! Question 115: Use a switch statement to log the days of the week based on a number (1-7).
+ */
 // This function logs the day of the week based on a number (1-7)
 function logDayOfWeek(dayNumber) {
     switch (dayNumber) {
@@ -30,4 +31,5 @@ function logDayOfWeek(dayNumber) {
     }
 }
 logDayOfWeek(1); // Outputs: Tuesday
+export {};
 // Uses a switch statement to select the appropriate day based on the provided number.

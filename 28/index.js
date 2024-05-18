@@ -4,7 +4,7 @@
 /*
 todo=> Explain & TIP: Use age to check the life stage. This practice shows how to handle multiple conditions with an if-else chain.
  */
-var age = 300;
+let age = 300;
 if (age > 0 && age <= 2) {
     console.log("\nThe person is a baby.");
 }
@@ -26,3 +26,4 @@ else if (age > 65) {
 else {
     console.log("\nInvalid entry, Please enter correct age.");
 }
+export {};

@@ -21,4 +21,4 @@ const add = (a: number, b: number) => {
 };
 
 executeCallback(add, 5, 3); // Outputs: 8
-// Demonstrates invoking a callback function with arguments to perform an addition.
+//? Demonstrates invoking a callback function with arguments to perform an addition.

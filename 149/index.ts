@@ -13,4 +13,4 @@ setTimeout(() => {
 }, 5000);
 
 console.log("\n", "End");
-// Although the timeout is 0, "Callback executed" is logged after "End" due to the event loop.
+//? Although the timeout is 0, "Callback executed" is logged after "End" due to the event loop.

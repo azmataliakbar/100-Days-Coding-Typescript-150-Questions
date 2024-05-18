@@ -4,13 +4,10 @@
 /*
 todo=> Explain & TIP: Utilizing rest parameters allows functions to accept an indefinite number of arguments, useful for handling lists of data like sandwich ingredients.
 */
-function make_sandwich() {
-    var items = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        items[_i] = arguments[_i];
-    }
-    console.log("\nMaking a sandwich with: ".concat(items.join(', '), "."));
+function make_sandwich(...items) {
+    console.log(`\nMaking a sandwich with: ${items.join(', ')}.`);
 }
 make_sandwich("ham", "cheese");
 make_sandwich("turkey", "lettuce", "tomato");
 make_sandwich("avocado", "sprouts", "mustard", "mayo");
+export {};

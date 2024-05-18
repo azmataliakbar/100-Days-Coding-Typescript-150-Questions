@@ -1,5 +1,6 @@
-"use strict";
-/* Question 111: Use an if-else-if chain to categorize a person's age group (child, teenager, adult). */
+/*
+! Question 111: Use an if-else-if chain to categorize a person's age group (child, teenager, adult).
+ */
 // This function categorizes a person's age group
 function categorizeAge(age) {
     if (age < 13) {
@@ -15,4 +16,5 @@ function categorizeAge(age) {
 console.log("\n", categorizeAge(12)); // Outputs: child
 console.log("\n", categorizeAge(18)); // Outputs: teenager
 console.log("\n", categorizeAge(25)); // Outputs: adult
-// Based on the age provided, we log the corresponding age group.
+export {};
+//? Based on the age provided, we log the corresponding age group.

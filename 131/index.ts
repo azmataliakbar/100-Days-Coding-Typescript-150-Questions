@@ -1,7 +1,9 @@
-/* Question 131: Create two modules; one that exports a class, and another that imports the class and creates an instance. */
+/*
+! Question 131: Create two modules; one that exports a class, and another that imports the class and creates an instance.
+ */
 
 // In another file:
-import { Person } from "./Person";
+import { Person } from "./Person"; //? This line code is imported from person.ts
 
 const alice = new Person("Alice");
 alice.greet(); // Outputs: Hello, my name is Alice

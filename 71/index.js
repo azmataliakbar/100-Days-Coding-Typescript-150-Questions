@@ -1,5 +1,6 @@
-"use strict";
-/* Question 71: Compare let and const: Create two examples where let allows reassignment but const does not. Try to reassign a const-declared variable and catch the error. */
+/*
+! Question 71: Compare let and const: Create two examples where let allows reassignment but const does not. Try to reassign a const-declared variable and catch the error.
+ */
 // Using `let` for a variable that can be reassigned
 let age = 25;
 age = 26; // Works fine because `let` allows reassignment
@@ -12,4 +13,5 @@ try {
 catch (error) {
     console.log("Error: Can't reassign a `const`-declared variable."); // This message is shown
 }
-// This example illustrates that `const` prevents changing the variable once it's set.
+export {};
+//? This example illustrates that `const` prevents changing the variable once it's set.

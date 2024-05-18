@@ -1,4 +1,6 @@
-/* Question 116: Create a switch case that matches several cases to the same code block, representing seasons. */
+/*
+! Question 116: Create a switch case that matches several cases to the same code block, representing seasons.
+ */
 
 // This function logs the season based on the month
 function logSeason(month: number): void {
@@ -30,4 +32,4 @@ function logSeason(month: number): void {
 }
 
 logSeason(2); // Outputs: Spring
-// Multiple cases share the same code block to represent each season.
+//? Multiple cases share the same code block to represent each season.

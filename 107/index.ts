@@ -1,4 +1,6 @@
-/* **Question 107:** Write a condition using logical operators that checks if a number is divisible by both 2 and 3. */
+/*
+! Question 107: Write a condition using logical operators that checks if a number is divisible by both 2 and 3.
+ */
 
 // This function checks if a number is divisible by both 2 and 3
 function isDivisibleByTwoAndThree(number: number): boolean {
@@ -8,4 +10,4 @@ function isDivisibleByTwoAndThree(number: number): boolean {
 
 console.log("\n", isDivisibleByTwoAndThree(12)); // Outputs: true
 console.log("\n", isDivisibleByTwoAndThree(14)); // Outputs: false
-// Logical operators help us verify the number's divisibility by both 2 and 3.
+//? Logical operators help us verify the number's divisibility by both 2 and 3.

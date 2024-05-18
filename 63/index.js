@@ -1,5 +1,6 @@
-"use strict";
-/* Question 63: Shape Shifter: Write a program that can describe either a circle or a rectangle using a special type alias, including properties unique to each shape. */
+/*
+! Question 63: Shape Shifter: Write a program that can describe either a circle or a rectangle using a special type alias, including properties unique to each shape.
+ */
 // Describing a circle using our Shape type
 let circle = {
     kind: "circle",
@@ -14,4 +15,5 @@ let rectangle = {
 // Showing what we described
 console.log("\n", circle); // Here's the circle
 console.log(rectangle); // And here's the rectangle
-// We made a flexible program that can describe different shapes in detail.
+export {};
+//? We made a flexible program that can describe different shapes in detail.

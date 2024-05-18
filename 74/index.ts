@@ -1,7 +1,10 @@
-/* Question 74: Swapping Variables: Demonstrate how to swap the values of two variables. Start with variables a = 5 and b = 10, then swap their values so that a becomes 10 and b becomes 5. */
+/*
+! Question 74: Swapping Variables: Demonstrate how to swap the values of two variables. Start with variables a = 5 and b = 10, then swap their values so that a becomes 10 and b becomes 5.
+ */
 
 // This function swaps the values of two variables
 function swapValues() {
+
   let a = 5, b = 10; // Initially, a is 5 and b is 10
   console.log("\nBefore swap: a =", a, "b =", b);
 
@@ -13,4 +16,4 @@ function swapValues() {
 }
 
 swapValues();
-// We use a temporary variable to hold one value while we swap them, like a magic trick!
+//? We use a temporary variable to hold one value while we swap them, like a magic trick!

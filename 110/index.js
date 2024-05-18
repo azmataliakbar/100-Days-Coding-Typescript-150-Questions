@@ -1,5 +1,6 @@
-"use strict";
-/* Question 110: Create a function that assigns a grade (A, B, C, D, F) based on a student's score. */
+/*
+! Question 110: Create a function that assigns a grade (A, B, C, D, F) based on a student's score.
+ */
 function assignGrade(score) {
     if (score >= 90) {
         return "A";
@@ -19,3 +20,4 @@ function assignGrade(score) {
 }
 console.log("\n", assignGrade(85)); // Outputs: B
 console.log("\n", assignGrade(55)); // Outputs: F
+export {};
